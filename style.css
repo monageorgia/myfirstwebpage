@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: stretch;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+    width: 100%;
+}
+
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;
+}
+
+.one-left {
+    max-width: 50%;
+}
+
+.one-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.one-right img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+}
+
+.button-one {
+    background-color: #3882f6;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.two {
+    padding: 40px 0;
+}
+
+.two-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 80px;
+}
+
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img{
+  height: 100px;
+  width: 100px;  
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    text-align: center;
+}
+
+.three {
+    background-color: #e5e7eb;
+    padding: 40px 120px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author p {
+    color: #1f2937;
+    font-weight: 300;
+    text-align: right;
+    font-weight: bold;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 330px;
+    width: 100%;
+}
+
+.four-box {
+    background-color: #3882f6;
+    color: white;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 5px;
+}
+
+.box-left {
+    width: 50%;
+}
+
+.signup {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 7px 17px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+}
